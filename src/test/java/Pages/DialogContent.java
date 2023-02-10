@@ -34,7 +34,7 @@ public class DialogContent extends Parent{
     @FindBy(xpath = "//span[text()='CİNSİYET']")
     private WebElement cinsiyetTikla;
 
-    @FindBy(xpath = "(//*[text()='Erkek'])[1]")
+    @FindBy(xpath = "(//*[text()='Erkek'])[3]")
     private WebElement erkekTikla;
 
     @FindBy(xpath = "//span[text()='Kategori']")

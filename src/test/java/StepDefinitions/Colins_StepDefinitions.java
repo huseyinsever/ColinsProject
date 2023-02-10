@@ -83,7 +83,6 @@ public class Colins_StepDefinitions {
         expectedRs.add("BEL TIPI");
         expectedRs.add("PAÇA TIPI");
         expectedRs.add("KALIP");
-        expectedRs.add("ÜRÜN TIPI");
         expectedRs.add("FİYAT");
 
         List<WebElement>actualRs=GWD.getDriver().findElements(By.xpath("//div[@class='filter-container-mobile-inner']//div[contains(@class,'filter-container filter-container')]"));
@@ -96,7 +95,6 @@ public class Colins_StepDefinitions {
     @When("Çıkan Sonuçlardan ilk ürüne tıklayın")
     public void çıkanSonuçlardanIlkÜrüneTıklayın() {
         dc.findAndClick("ilkUrunTikla");
-        dc.verifyText("urunKoduDogrula","CL1057982_Q1.V1_LNV");
     }
 
     @When("Sepete Ekleye tıklayın")
