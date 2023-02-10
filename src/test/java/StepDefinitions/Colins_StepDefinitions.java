@@ -93,7 +93,7 @@ public class Colins_StepDefinitions {
     }
 
     @When("Çıkan Sonuçlardan ilk ürüne tıklayın")
-    public void çıkanSonuçlardanIlkÜrüneTıklayın() { //
+    public void çıkanSonuçlardanIlkÜrüneTıklayın() {
         dc.findAndClick("ilkUrunTikla");
     }
 
